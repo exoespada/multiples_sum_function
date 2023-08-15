@@ -1,7 +1,7 @@
 # Multiples Sum Function
 
 ## Introduction
-Hello friends! This is a coding challenge adapted from 'The Coding Room of Spirit and Time' crafted by 0ceano on YouTube. Do make sure to give him a follow; he has some brilliant C programming content for anyone embarking on a coding journey. Dive right into the specific video on [YouTube](https://www.youtube.com/watch?v=ysAOy00IDIA&t=547s). Originally inspired by a problem from Project Euler, the task was to find the sum of all multiples of 3 or 5 below 1000.
+Hello friends! This is a coding challenge adapted from 'The Coding Room of Spirit and Time' crafted by [Jalala AKA 0ceano](https://github.com/suspectedoceano) on [YouTube](https://www.youtube.com/@onaecO). Do make sure to give him a follow; he has some brilliant C programming content for anyone embarking on a coding journey. Dive right into the specific video on [YouTube](https://www.youtube.com/watch?v=ysAOy00IDIA&t=547s). Originally inspired by a problem from Project Euler, the task was to find the sum of all multiples of 3 or 5 below 1000.
 
 In my version of the challenge, the function takes a dynamic turn. Instead of being confined to 3 and 5, you can provide two integer inputs. The first will be your chosen multiple, and the second denotes the upper limit for the sum. If the limit itself is a multiple, it gets included in the total. This means you can easily determine the sum of all multiples of, say, 15 below 1000 or any other combination you fancy!
 
