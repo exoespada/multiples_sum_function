@@ -3,14 +3,12 @@
 ## Introduction
 Hello friends! This is a coding challenge adapted from 'The Coding Room of Spirit and Time' crafted by [Jalal AKA Oceano](https://github.com/suspectedoceano) on [YouTube](https://www.youtube.com/@onaecO). Do make sure to give him a follow; he has some brilliant C programming content for anyone embarking on a coding journey. Dive right into the specific video on [YouTube](https://www.youtube.com/watch?v=ysAOy00IDIA&t=547s). Originally inspired by a problem from Project Euler, the task was to find the sum of all multiples of 3 or 5 below 1000.
 
-In my version of the challenge, the function takes a dynamic turn. Instead of being confined to 3 and 5, you can provide two integer inputs. The first will be your chosen multiple, and the second denotes the upper limit for the sum. If the limit itself is a multiple, it gets included in the total. This means you can easily determine the sum of all multiples of, say, 15 below 1000 or any other combination you fancy!
+In my version of the challenge, the function takes a dynamic turn. Instead of being confined to 3 and 5, you can provide two integer inputs. The first will be your chosen divisor, and the second denotes the upper limit for the sum. If the limit itself is a multiple, it gets included in the total. This means you can easily determine the sum of all multiples of, say, 15 below 1000 or any other combination you fancy!
 
 **PS:** Feedback and improvements for the code are always welcome. Jump right in!
 
 ## Inspiration
 When considering the sums of multiples for a specific number, I had a lightbulb moment. Let's take 9 as an example. Divided by 3, it's 3. By sequentially adding the numbers leading to it, i.e., \(3 + 2 + 1\), we get 6. Multiplying this sum by 3 yields 18. This is the sum of all multiples of 3 up to 9: \(9 + 6 + 3 = 18\).
-
-For another illustration, let's think of the multiples of 2 with 9 as the maximum limit. Here, 8 is the largest multiple of 2 below 9. The summation of all multiples of 2 up to 8 is \(2 + 4 + 6 + 8 = 20\).
 
 ## Under the Hood
 Time to delve into the inner workings of the code:
